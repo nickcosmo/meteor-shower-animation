@@ -33,7 +33,7 @@ for (let i = 0; i < 1000; i++) {
     ratio = 1 - myDiag / diag;
     html += `<div class=meteor style="top:${y}; left:${x}; opacity:${ratio}; transform:scale(${ratio});"></div>`;
   } else {
-    //quadrant3
+    //quadrant4
     deltaX = window.innerWidth - x;
     deltaY = window.innerHeight - y;
     myDiag = Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2));
